@@ -1,0 +1,19 @@
+A terminal-based alarm clock that lets the user:
+
+1) Set an alarm for a specific HH:MM time (24 hr clock)
+2) View the currently configured alarm
+3) Cancel an alarm
+4) Run continuously and detect when the alarm time is reached
+5) Display a clear notification when the alarm rings
+6) Exit cleanly with Ctrl+C
+7) Validate invalid time input
+8) Handle alarms that are set for the next day
+9) Use only Python standard-library modules
+
+Alarm Clock Options:-
+
+1. Set Alarm -> set_alarm() function to set a new alarm
+2. View Alarm -> view_alarm() function to display the currently set alarm
+3. Cancel Alarm -> cancel_alarm() function to cancel the currently set alarm
+4. Start Clock -> start_clock() function to run the clock and check for the alarm time
+5. Exit -> exit_program() function to exit the program cleanly
